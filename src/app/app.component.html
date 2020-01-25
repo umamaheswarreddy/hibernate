@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h2>enter first number: </h2>
+  <input type="number"  placeholder="enter number" [(ngModel)]="n1"/>
+
+  <br>
+  <h2>enter second number: </h2>
+  <input type="number"  placeholder="enter number" [(ngModel)]="n2"/><br>
+
+  <h2>result</h2>
+  <input type="text"  placeholder="enter number" [(ngModel)]="result"/>
+
+
+
+  <button (click)="add()"> add </button>
+  <button (click)="sub()"> sub </button>
+  <button (click)="mul()"> mul </button>
+  <button (click)="div()"> div </button>
+</body>
+</html>
